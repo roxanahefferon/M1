@@ -6,7 +6,7 @@ body {
 /* --- navbar --- */
 
 .navbar-brand {
-    margin-left: 0.25rem;
+    margin-left: 0.05rem;
     margin-top: 0.25rem;
     border: solid 2px;
     border-color: #000000;
@@ -55,3 +55,28 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
 }
+
+/* --- jumbotron hero image --- */
+
+.jumbotron {
+    background-image: url("https://i.imgur.com/ysdDc1S.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 160px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: #fafafa;
+}
+
+.badge-light {
+    background-color: #b87333;
+    border: none;
+    color: #fafafa;
+}
+
+/* --- about us --->
+
