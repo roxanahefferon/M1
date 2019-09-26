@@ -5,7 +5,45 @@ body {
 
 /* --- navbar --- */
 
-.logo {
-    width: 50px;
-    height: 50px;
+.navbar-brand {
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 0.25rem;
+    padding: .40rem .75rem;
+}
+
+.navbar-brand:hover {
+    border-color: #b87333;
+}
+
+.navbar .navbar-toggler {
+    border: solid 2px;
+    border-color: #000000;
+}
+
+.navbar .navbar-toggler:hover {
+    border-color: #b87333;
+}
+
+.dropdown a {
+    font-weight: 500;
+}
+
+.navbar-nav a {
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    border: solid 2px;
+    color: #000000;
+}
+
+.dropdown-menu:hover {
+    color: #b87333;
+}
+
+.navbar-collapse {
+    margin-left: 20px;
 }
