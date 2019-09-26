@@ -58,18 +58,25 @@ body {
 
 /* --- jumbotron hero image --- */
 
+.jumbotron-container {
+    margin-top: 160px;
+}
+
 .jumbotron {
     background-image: url("https://i.imgur.com/ysdDc1S.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 160px;
 }
 
 .jumbotron h1,
 .jumbotron p {
     color: #fafafa;
+}
+
+.jumbotron-divider {
+    background-color: #b87333;
 }
 
 .badge-light {
