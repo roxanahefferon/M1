@@ -47,3 +47,11 @@ body {
 .navbar-collapse {
     margin-left: 20px;
 }
+
+.nav-item a {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
