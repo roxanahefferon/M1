@@ -106,15 +106,16 @@ body {
 }
 
 .quote-landing {
-    background-color: #b87333;
-    color: #000000;
+    background-color: #ffffff;
+    color: #b87333;
     text-align: center;
     font-weight: 600;
     font-size: 1.2rem;
     margin: 0;
-    margin-bottom: 0.5rem;
     padding: 10px;
-    border-radius: 0.25rem;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 0.3rem;
 }
 
 .quote {
@@ -125,8 +126,8 @@ body {
 /* --- about us --- */
 
 .about {
-    background-color: #4a4a4f;
-    color: #ffffff;
+    color: #4a4a4f;
+    font-weight: bold;
     margin-bottom: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -142,6 +143,9 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.8rem;
 }
 
 .ourbeansheader {
@@ -149,6 +153,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 0.25rem;
+    padding: 0.4rem;
 }
 
 
@@ -157,5 +164,11 @@ body {
 @media (min-width: 768px) {
     .quote-landing {
         font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .ourbeans-img {
+        height: 180px;
     }
 }
