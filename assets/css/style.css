@@ -14,6 +14,10 @@ body {
     padding: .40rem .75rem;
 }
 
+.navbar fixed-top {
+    position:fixed !important;
+}
+
 .navbar-brand:hover {
     border-color: #b87333;
 }
@@ -68,6 +72,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 0.5rem;
 }
 
 .jumbotron h1,
@@ -86,18 +91,28 @@ body {
 }
 
 .quote-landing {
-    background-color: #b73333;
+    background-color: #b87333;
     color: #fafafa;
     text-align: center;
     font-style: italic;
     font-size: 1.3rem;
-    margin: 0;
+    margin: 0.5rem;
     padding: 10px;
     border-radius: 0.25rem;
 }
 
 /* --- about us --- */
 
+.about {
+    background-color: #c0c0c0;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.about p {
+    margin: 1rem;
+}
 
 
 
