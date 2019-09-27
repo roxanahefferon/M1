@@ -34,7 +34,16 @@ Regarding the colour palette, I used the image to colour generator from https://
 
 For prospective customers and baristas alike, I wanted to provide them with a brief overview of what the Coffee Project Co. does and how, as well as with the option to get in contact should they require more information/schedule a meeting with a sales representative.
 Links to the SCA website, my GitHub and downloadable PDF versions of some brewing techniques were also provided for their ease of access.
+
+Hero image from by Simon Zachrisson at unsplash.com
+https://unsplash.com/photos/CWHzMfB0LWg
+
+Our Coffees image Photo by Ubu Komarova on Unsplash
+
 Technologies
+
 1.	HTML
 2.	CSS
 3.	Bootstrap (4.0.0)
+---
+
