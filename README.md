@@ -47,6 +47,9 @@ https://unsplash.com/photos/TYIzeCiZ_60
 Blends card image by Lodewijk Hertog | 
 https://unsplash.com/photos/LnG_bBDHLYo
 
+SCA courses jumbotron image |
+https://unsplash.com/photos/9RMsrfuKa4E
+
 Technologies
 
 1.	HTML
