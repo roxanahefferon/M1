@@ -85,5 +85,26 @@ body {
     color: #fafafa;
 }
 
-/* --- about us --->
+.quote-landing {
+    background-color: #b73333;
+    color: #fafafa;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
 
+/* --- about us --- */
+
+
+
+
+/* --- media queries --- */
+
+@media (min-width: 992px) {
+    .quote-landing {
+     font-size: 2rem;   
+    }
+}
