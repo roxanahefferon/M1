@@ -67,7 +67,7 @@ body {
 /* --- jumbotron hero image --- */
 
 .jumbotron-container {
-    margin-top: 180px;
+    margin-top: 160px;
 }
 
 .jumbotron {
@@ -161,12 +161,18 @@ body {
 
 /* --- cards landing ---*/
 
-.cards-beans {
-    margin-top: 2rem;
-}
-
+.card1,
 .card2 {
     margin-top: 2rem;
+    border: 2px solid;
+    border-color: #b87333;
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    background-color: #ffffff;
+    color: #b87333;
+    
 }
 
 /* --- media queries --- */
