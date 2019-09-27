@@ -14,6 +14,10 @@ body {
     padding: .40rem .75rem;
 }
 
+.navbar-light {
+    background-color: #ffffff;
+}
+
 .navbar fixed-top {
     position:fixed !important;
 }
@@ -63,7 +67,7 @@ body {
 /* --- jumbotron hero image --- */
 
 .jumbotron-container {
-    margin-top: 160px;
+    margin-top: 180px;
 }
 
 .jumbotron {
@@ -78,33 +82,51 @@ body {
 .jumbotron h1,
 .jumbotron p {
     color: #fafafa;
+    text-align: center;
 }
 
 .jumbotron-divider {
     background-color: #b87333;
+    margin: 1rem;
 }
 
 .badge-light {
     background-color: #b87333;
     border: none;
-    color: #fafafa;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.badge-light:hover {
+    background-color: #4a4a4f;
+    border: none;
+    color: #000000;
+    font-weight: inherit;
+    font-size: 1rem;
 }
 
 .quote-landing {
     background-color: #b87333;
-    color: #fafafa;
+    color: #000000;
     text-align: center;
-    font-style: italic;
-    font-size: 1.3rem;
-    margin: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     padding: 10px;
     border-radius: 0.25rem;
+}
+
+.quote {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* --- about us --- */
 
 .about {
-    background-color: #c0c0c0;
+    background-color: #4a4a4f;
+    color: #ffffff;
     margin-bottom: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -114,12 +136,15 @@ body {
     margin: 1rem;
 }
 
+/* --- beans --- */
+
+
 
 
 /* --- media queries --- */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .quote-landing {
-     font-size: 2rem;   
+     font-size: 2.5rem;   
     }
 }
