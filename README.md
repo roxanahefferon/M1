@@ -50,6 +50,17 @@ https://unsplash.com/photos/LnG_bBDHLYo
 SCA courses jumbotron image |
 https://unsplash.com/photos/9RMsrfuKa4E
 
+
+Icons by Oliver Pitsch | https://www.iconfinder.com
+
+https://www.iconfinder.com/icons/889385/aero_press_aeropress_barista_brewing_coffee_coffee_maker_espresso_icon
+
+https://www.iconfinder.com/icons/889375/barista_chemex_coffee_coffee_maker_filter_icon
+
+https://www.iconfinder.com/icons/889371/bodum_coffee_coffee_maker_french_french_press_press_icon
+
+https://www.iconfinder.com/icons/889382/barista_cafe_coffee_espresso_espresso_machine_machine_icon
+
 Technologies
 
 1.	HTML
