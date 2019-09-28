@@ -196,6 +196,7 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 1.8rem;
+    margin-top: 2rem;
 }
 
 .brewguidesheader {
@@ -206,6 +207,10 @@ body {
     border: 5px solid;
     border-radius: 0.25rem;
     padding: 0.4rem;
+}
+
+#methods {
+    margin-top: 2rem;
 }
 
 /* --- media queries --- */
