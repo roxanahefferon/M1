@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -64,10 +66,14 @@ body {
     color: #000000;
 }
 
+.bgblack {
+    background-color: #000000;
+}
+
 /* --- jumbotron hero image --- */
 
 .jumbotron-container {
-    margin-top: 160px;
+    margin-top: 180px;
 }
 
 .jumbotron {
@@ -87,7 +93,7 @@ body {
 
 .jumbotron-divider {
     background-color: #b87333;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .badge-light {
@@ -106,15 +112,15 @@ body {
 }
 
 .quote-landing {
-    background-color: #ffffff;
     color: #b87333;
     text-align: center;
-    font-weight: 600;
+    font-family: "Lora", sans-serif;
+    font-weight: 500;
     font-size: 1.2rem;
-    margin: 0;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 5px;
     border: 2px solid;
-    border-color: #000000;
+    border-color: #b87333;
     border-radius: 0.3rem;
 }
 
@@ -126,15 +132,16 @@ body {
 /* --- about us --- */
 
 .about {
-    color: #4a4a4f;
-    font-weight: bold;
+    color: #fafafa;
+    font-weight: lighter;
     margin-bottom: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     border-radius: 0.25rem;
 }
 
 .about p {
     margin: 1rem;
+    text-align: center;
 }
 
 /* --- beans --- */
@@ -173,6 +180,10 @@ body {
     background-color: #ffffff;
     color: #b87333;
     
+}
+
+.bgwhite {
+    background-color: #ffffff;
 }
 
 /* --- sca courses --- */
