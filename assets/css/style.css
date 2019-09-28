@@ -173,7 +173,7 @@ body {
 .card2 {
     margin-top: 2rem;
     padding-bottom: 2rem;
-}
+}    
 
 .card-header {
     background-color: #000000;
@@ -185,8 +185,18 @@ body {
     max-height: 50%;
 }
 
+.card-body {
+    background-color: #000000;
+}
+
+.card-body p {
+    color: #ffffff;
+}
+
 .btn-light {
     background-color: #b87333;
+    color: #ffffff;
+    border: none;
 }
 
 /* --- sca courses --- */
@@ -244,6 +254,18 @@ body {
 
 
 
+
+
+
+
+/* --- chemex.html --- */
+
+.chemex-container {
+    margin-top: 200px;
+    background-color: #669966;
+    border: 1px solid #669966;
+    border-radius: 0.25rem;
+}
 
 /* --- media queries --- */
 
