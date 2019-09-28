@@ -175,27 +175,39 @@ body {
     
 }
 
-/* --- sca courses ---*/
+/* --- sca courses --- */
 
 .sca-section {
-    margin-top: 2rem;
     margin-top: 20px;
-    background-color: #669966;
-    color: #ffffff;
 }
 
 .sca-img {
     padding: 0;
     border: 2px solid;
     border-radius: 0.25rem;
+}
+
+/* --- brew guides --- */
+
+.brewguides {
     position: relative;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.8rem;
 }
 
-.sca-text {
-    margin-top: 2rem;
+.brewguidesheader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 0.25rem;
+    padding: 0.4rem;
 }
 
-    
 /* --- media queries --- */
 
 @media (min-width: 768px) {
