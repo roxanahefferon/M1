@@ -255,6 +255,29 @@ body {
 
 
 
+/* --- footer --- */
+
+.footer {
+    background-color: #4a4a4f;
+    color: #ffffff;
+    margin-top: 2rem;
+    
+}
+
+.here-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.here-link:hover {
+    font-size: x-large;
+
+}
+
+.fab {
+    color: #000000;
+    font-size: 20px;
+}
 
 
 
