@@ -252,19 +252,17 @@ body {
 /* --- courses.html --- */
 
 
-/* --- coffees.html --- */
+/* --- coffees-single html --- */
 
 .coffees-container {
     margin-top: 210px;
 }
 
-.progress {
-    width: 200px;
-    margin: 10px;
-}
 
-.progress-type {
-   margin-left: 5px;
+/* --- coffees-blends.html --- */
+
+.blends-container {
+    margin-top: 200px;
 }
 
 
