@@ -35,21 +35,27 @@ Regarding the colour palette, I used the image to colour generator from https://
 For prospective customers and baristas alike, I wanted to provide them with a brief overview of what the Coffee Project Co. does and how, as well as with the option to get in contact should they require more information/schedule a meeting with a sales representative.
 Links to the SCA website, my GitHub and downloadable PDF versions of some brewing techniques were also provided for their ease of access.
 
-Hero image from by Simon Zachrisson | 
-https://unsplash.com/photos/CWHzMfB0LWg
+Hero image from by Simon Zachrisson | https://unsplash.com/photos/CWHzMfB0LWg
 
-Our Coffees image by Ubu Komarova | 
-https://unsplash.com/photos/K3oOCdn9qcQ
+Our Coffees image by Ubu Komarova | https://unsplash.com/photos/K3oOCdn9qcQ
 
-Single Origin card image by Karl Fredrickson | 
-https://unsplash.com/photos/TYIzeCiZ_60
+Single Origin card image by Karl Fredrickson | https://unsplash.com/photos/TYIzeCiZ_60
 
-Blends card image by Lodewijk Hertog | 
-https://unsplash.com/photos/LnG_bBDHLYo
+Blends card image by Lodewijk Hertog | https://unsplash.com/photos/LnG_bBDHLYo
 
-SCA courses jumbotron image |
-https://unsplash.com/photos/9RMsrfuKa4E
+SCA courses jumbotron image | https://unsplash.com/photos/9RMsrfuKa4E
 
+Brew guides heading image by René Pollock | https://unsplash.com/photos/pLPZjZL8cII
+
+Header SCA courses image by Nathan Dumlao | https://unsplash.com/photos/JHxGT0lA_GA
+
+Intro to coffee SCA image by Marc Babin | https://unsplash.com/photos/VMJtKiREtMc
+
+Barista SCA image by Tyler Nix | https://unsplash.com/photos/3uSHEffsDXI
+
+Brewing SCA image by Helena Lopes | https://unsplash.com/photos/kN69WG8zfwA
+
+***
 
 Icons by Oliver Pitsch | https://www.iconfinder.com
 
