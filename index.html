@@ -23,13 +23,13 @@
       <div class="collapse navbar-collapse " id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Our coffees</a>
+            <a class="nav-link" href="coffees.html">Our Coffees</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="# ">Brewing guides</a>
+            <a class="nav-link" href="brewing.html">Brewing Guides</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Our courses</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Our Courses</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Intro to coffee</a>
               <a class="dropdown-item" href="#">Barista SCA</a>
@@ -37,7 +37,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
 
     <! --- about us --->
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col">
           <div class="quote-landing">
@@ -90,38 +90,41 @@
 
     <! --- beans --->
 
-    <div class="container ourbeans">
-      <div class="row">
-        <div class="col-12">
-          <img src="./assets/images/our-beans.png" class="ourbeans-img" alt="roasted coffee beans image" width=100% height=80px>
-          <div class="ourbeansheader">our beans</div>
+    <div class="container brewguides-container">
+      <div class="container headers-landing">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/images/our-beans.png" alt="roasted coffee beans image" width=100% height=auto>
+            <p class="ph-landing">Our Coffees</p>
+          </div>
         </div>
       </div>
     </div>
-
     <! --- cards for beans section --->
 
-    <div class="container">
-      <div class="row cards-beans">
-        <div class="col-12 col-md-6">
-          <div class="card1">
-            <div class="card" style="width: 100%">
+    <div class="container cards-beans">
+      <div class="card-deck">
+        <div class="row">
+
+          <div class="col-12 col-md-6">
+
+            <div class="card">
               <div class="card-header">
                 <h3>Single Origin</h3>
               </div>
               <img class="card-img-top" src="./assets/images/single-origin-card1.png" alt="Kettle pouring into chemex image">
               <div class="card-body">
-                <p class="card-text">This is where the fun is. These are seasonal coffees that are constantly changing. Very often we are buy entire micro lots, giving us world exclusivity on that coffee – when we do this you know that the coffee is truly exceptional.</p>
+                <p class="card-text">This is where the fun is. These are seasonal coffees that are constantly changing. Very often we buy entire micro lots, giving us world exclusivity on that coffee – when we do this you know that the coffee is truly exceptional.</p>
                 <a href="coffees-single.html" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
-        </div>
 
 
-        <div class="col-12 col-md-6">
-          <div class="card2">
-            <div class="card" style="width: 100%">
+
+          <div class="col-12 col-md-6">
+
+            <div class="card">
               <div class="card-header">
                 <h3>Blends</h3>
               </div>
@@ -139,6 +142,15 @@
 
 
   <! --- sca courses --->
+
+  <div class="container headers-landing">
+    <div class="row">
+      <div class="col">
+        <img src="./assets/images/our-courses.png" alt="roasted coffee beans image" width=100% height=auto>
+        <p class="ph-landing">Our Courses</p>
+      </div>
+    </div>
+  </div>
 
   <div class="sca-section">
 
@@ -168,53 +180,59 @@
 
   <! --- brew guides --->
 
-  <div class="container brewguides">
+  <div class="container headers-landing">
     <div class="row">
-      <div class="col-12">
-        <img src="./assets/images/brew-guides.png" class="brewguides-img" alt="brewing methods image" width=100% height=200px>
-        <div class="brewguidesheader">brew guides</div>
+      <div class="col">
+        <img src="./assets/images/brew-guides.png" alt="brewing vesels image" width=100% height=auto>
+        <p class="ph-landing">Brewing Guides</p>
       </div>
     </div>
   </div>
+  <br>
+  <br>
 
   <! --- link to page/downloadable pdfs --->
 
-  <div class="container brew-cards">
-    <div class="row no-gutters">
+  <div class="container">
+    <div class="card-columns d-inline-flex justify-content-center">
+      <div class="row no gutters">
 
-      <div class="col-sm-6 col-md-12 col-lg-12">
-
-        <div class="card-group">
-
+        <div class="col-6 col-md-3">
           <div class="card">
-            <img class="card-img-top" src="./assets/images/chemex.png" alt="chemex icon">
-            <div class="card-body text-center">
-              <span><a href="chemex.html">chemex</span></a>
+            <div class="card-body text-center brew-cards">
+              <a href="aeropress.html"><i class="fas fa-chevron-right">Aeropress</i></a>
+              <img src="./assets/images/aeropress.png" alt="aeropress icon" class="card-img">
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="./assets/images/espresso-machine.png" alt="espresso machine icon">
-            <div class="card-body text-center">
-              <span><a href="espresso.html">espresso</span></a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="./assets/images/aeropress.png" alt="aeropress icon">
-
-            <div class="card-body text-center">
-              <span><a href="aeropress.html">aeropress</span></a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="./assets/images/french-press.png" alt="french press icon">
-
-            <div class="card-body text-center">
-              <span><a href="cafetiere.html">cafetiere</span></a>
-            </div>
-          </div>
-
         </div>
+
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <div class="card-body text-center brew-cards">
+              <a href="cafetiere.html"><i class="fas fa-chevron-right">Cafetiere</a></i>
+              <img src="./assets/images/french-press.png" alt="cafetiere icon" class="card-img"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <div class="card-body text-center brew-cards">
+              <a href="chemex.html"><i class="fas fa-chevron-right">Chemex</a></i>
+              <img src="./assets/images/chemex.png" alt="chemex icon" class="card-img"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <div class="card-body text-center brew-cards">
+              <a href="espresso.html"><i class="fas fa-chevron-right">Espresso</a></i>
+              <img src="./assets/images/espresso-machine.png" alt="espresso machine icon" class="card-img"></a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -227,7 +245,7 @@
 
         <div id="testimonialscarousel" class="carousel slide" data-ride="carousel">
 
-          <!-- Indicators -->
+          <! --- indicators  --->
 
           <ul class="carousel-indicators">
             <li data-target="#testimonialscarousel" data-slide-to="0" class="active"></li>
@@ -235,7 +253,7 @@
             <li data-target="#testimonialscarousel" data-slide-to="2"></li>
           </ul>
 
-          <!-- The slideshow -->
+          <! --- slides  --->
 
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -258,7 +276,7 @@
             </div>
           </div>
 
-          <!-- Left and right controls -->
+          <! --- controls  --->
 
           <a class="carousel-control-prev" href="#testimonialscarousel" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
@@ -293,7 +311,7 @@
           <form>
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Your message goes here" required></textarea>
             <div class="form-row text-center">
               <div class="col">
                 <button type="submit" class="btn btn-secondary">Send message</button>
@@ -307,19 +325,12 @@
     <! --- footer --->
 
     <footer>
-      <div class="footer my-footer">
+      <div class="footer">
 
         <div class="container">
           <div class="row">
 
-            <div class="col-4 footer-menu">
-              <p>Coffee Project Co.</p>
-              <p>01 214 8634</p>
-              <p>Email us <a href="#"><span class="here-link">here</a></p></span>
-            </div>
-
-
-            <div class="col-4 media">
+            <div class="col-6 media d-inline-flex justify-content-center">
               <ul class="list-inline">
                 <li class="list-inline-item">
                   <a href="#" target="_blank">
@@ -353,9 +364,8 @@
 
               </ul>
             </div>
-            <div class="col-4 my-info">
-              <p>Website by roxheff | 2019</p>
-              <a href="https://github.com/roxanahefferon"><i class="fab fa-github-square"></i></a>
+            <div class="col-6 my-info d-inline-flex justify-content-center">
+              <p>Designed by roxheff <a href="https://github.com/roxanahefferon"><i class="fab fa-github-square"></i></p></a>
             </div>
           </div>
         </div>

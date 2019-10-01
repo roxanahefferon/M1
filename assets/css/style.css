@@ -145,18 +145,14 @@ body {
     text-align: center;
 }
 
-/* --- beans --- */
+/* --- headers --- */
 
-.ourbeans {
+.headers-landing {
     position: relative;
     text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 1.8rem;
 }
 
-.ourbeansheader {
+.ph-landing {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,16 +160,24 @@ body {
     border: 5px solid;
     border-radius: 0.25rem;
     padding: 0.4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 
-/* --- cards landing ---*/
+/* --- landing cards ---*/
 
-.card1,
-.card2 {
+.cards-beans {
     margin-top: 2rem;
     padding-bottom: 2rem;
 }    
+
+.card-deck {
+    margin: auto;
+    padding: 0;
+}
 
 .card-header {
     background-color: #000000;
@@ -181,25 +185,21 @@ body {
     text-align: center;
 }
 
-.card-img-top {
-    max-height: 50%;
-}
-
 .card-body {
     background-color: #000000;
 }
 
-.card-body p {
+.card-text {
     color: #ffffff;
 }
 
-.btn-light {
+.card-body a {
     background-color: #b87333;
     color: #ffffff;
     border: none;
 }
 
-/* --- sca courses --- */
+/* --- landing sca courses --- */
 
 .sca-section {
     margin-top: 20px;
@@ -211,46 +211,38 @@ body {
     border-radius: 0.25rem;
 }
 
-/* --- brew guides --- */
+/* --- brewing.html --- */
 
-.brewguides {
-    position: relative;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 1.8rem;
-    margin-top: 2rem;
+.brewguides-container {
+    margin-top: 180px;
 }
-
-.brewguidesheader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid;
-    border-radius: 0.25rem;
-    padding: 0.4rem;
-}
-
-
-/* --- link to page/downloadable pdfs ---*/
 
 .brew-cards {
-    margin-top: 2rem;
+    background-color: #ffffff;
+    border: 2px solid #b87333;
+    border-radius: 0.25rem;
 }
 
-
-.card-group img {
-    width: 100px;
-    height: 100px;
-    transform: translateX(90%);
+.brew-cards a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
 }
 
+.brew-cards a:hover {
+    font-size: 18px;
+    font-weight: bold;
+}    
 
+.brew-cards img {
+    margin-top: 10px;
+}
 
-/* --- courses.html --- */
+/* --- landing courses.html --- */
 
+.courses-container {
+    margin-top: 210px;
+}
 
 /* --- coffees-single html --- */
 
@@ -271,34 +263,46 @@ body {
 .footer {
     background-color: #4a4a4f;
     color: #ffffff;
+    font-size: 0.5rem;
+    font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
+    padding-top: 2rem;
     
 }
 
-.here-link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.here-link:hover {
-    font-size: x-large;
-
-}
-
 .fab {
-    color: #000000;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 10px;
+    padding-left: 0.5rem;
 }
 
+.fab:hover {
+    font-size: x-large;
+}
 
+/* --- brewing guides (all .htmls) --- */
 
-/* --- chemex.html --- */
-
-.chemex-container {
+.brewing-container {
     margin-top: 200px;
+    padding: 1rem;
     background-color: #669966;
     border: 1px solid #669966;
     border-radius: 0.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.brewing-container h2 {
+    font-family: "Lato", sans-serif;
+}
+
+.brewing-download {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.brewing-download a{
+    text-decoration: none;
+    color: #b87333;
 }
 
 /* --- media queries --- */
@@ -310,7 +314,16 @@ body {
 }
 
 @media (min-width: 768px) {
-    .ourbeans-img {
+    .our-coffee-img {
         height: 180px;
+    }
+    .footer {
+        font-size: 1rem;
+    }
+    .fab {
+        font-size: 16px;
+    }
+    .ph-landing {
+        font-size: 2rem;
     }
 }
