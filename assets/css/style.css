@@ -285,8 +285,15 @@ input[type=email],
     padding: 1rem;
 }
 
+/* --- carousel --- */
 
 
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    font-size: 100px; 
+    color: red;
+}
 
 
 /* --- footer --- */
@@ -355,4 +362,11 @@ input[type=email],
     .ph-landing {
         font-size: 2rem;
     }
+}
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        width: 334px;
+        height: 229px;
+}
 }
