@@ -13,59 +13,159 @@
 
 <body>
 
-<header>
+    <header>
 
-    <! --- navbar --->
+        <! --- navbar --->
 
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top"> <a class="navbar-brand" href="index.html"> <img src="./assets/images/coffee-project-logo.png" width="120px" alt="bbb-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top"> <a class="navbar-brand" href="index.html"> <img src="./assets/images/coffee-project-logo.png" width="120px" alt="bbb-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="coffees.html">Our coffees</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="brewing.html">Brewing guides</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Our courses</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="intro.html">Intro to coffee</a>
-                        <a class="dropdown-item" href="barista-sca.html">Barista SCA</a>
-                        <a class="dropdown-item" href="brewing-sca.html">Brewing SCA</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="coffees.html">Our coffees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brewing.html">Brewing guides</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Our courses</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="intro.html">Intro to coffee</a>
+                            <a class="dropdown-item" href="barista-sca.html">Barista SCA</a>
+                            <a class="dropdown-item" href="brewing-sca.html">Brewing SCA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <! --- main section --->
+
+    <div class="container main-container">
+        <div class="container main-landing">
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/images/our-courses.png" alt="roasted coffee beans image" width=100% height=auto>
+                    <p class="ph-landing uppercase">our courses</p>
+                </div>
+            </div>
         </div>
-    </nav>
-
-</header>
-
-
-<! --- main section --->
-
-<div class="container main-container">
-<div class="container main-landing">
-    <div class="row">
-      <div class="col">
-        <img src="./assets/images/our-courses.png" alt="roasted coffee beans image" width=100% height=auto>
-        <p class="ph-landing">Barista SCA</p>
-      </div>
     </div>
-  </div>
-</div>
 
-<! --- footer --->
+    <! --- media object --->
 
-<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
 
-</footer>
+                <div class="media">
+                    <img src="./assets/images/barista-sca.png" alt="latte art image" class="align-self-center mx-3 mt-2" style="width:33%">
+                    <div class="media-body">
+                        <h2>Barista SCA</h2>
+                        <p>This course is for people new to the coffee industry, with no experience, and focuses on the key skills required to work in a coffee shop, like how to set your grinder, make espresso and foam and texture milk for cappuccinos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="sca-content">
+                    <h3>Overview</h2>
+                    <hr class="section-divider">
+                    <p>Explore the differences between Arabicas and Robustas and how to maintain freshness.</p>
+                    <p>Extract the perfect espresso following a set of steps that make up the industry discipline.</p>
+                    <p>Steam different milk textures to bring together a whole host of espresso based drinks.</p>
+                    <p>Round off the learning with machine cleaning and basic maintenance, before sitting a series of assessments.</p>
+                    <p>EUR 240 including exam, Cert Fee (EUR 60) + VAT</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <! --- form --->
+
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-6 offset-3">
+                <h3 class="text-center form-heading">Sounds interesting?</h3>
+                <form>
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Your message goes here" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn my-button my-border">Send message</button>
+                        </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <! --- footer --->
+
+    <footer>
+        <div class="footer">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6 media d-inline-flex justify-content-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank">
+<i class="fab fa-facebook-f" aria-hidden="true"></i>
+<span class="sr-only">Facebook</span>
+</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/" target="_blank">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+<span class="sr-only">Twitter</span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com" target="_blank">
+<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+<span class="sr-only">LinkedIn</span>
+</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/" target="_blank">
+<i class="fab fa-pinterest" aria-hidden="true"></i>
+<span class="sr-only">Pinterest</span>
+</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" target="_blank">
+<i class="fab fa-instagram" aria-hidden="true"></i>
+<span class="sr-only">Instagram</span>
+</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-6 my-info d-inline-flex justify-content-center">
+                        <p>Designed by roxheff <a href="https://github.com/roxanahefferon" target="_blank"><i class="fab fa-github-square aria-hidden="true""></i></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

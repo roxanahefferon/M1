@@ -6,6 +6,80 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* --- all pages --- */
+
+.main-container {
+    margin-top: 180px;
+}
+
+.section-divider {
+    background-color: #b87333;
+    margin: 1.5rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* --- buttons --- */
+
+.my-button {
+    background-color: #ffffff;
+    color: #4a4a4f;
+}
+
+.my-button:hover {
+    background-color: #b87333;
+    color: #ffffff;
+    border: 2px solid #b87333;
+    
+}
+
+.my-border {
+    border: 2px solid #b87333;
+    border-radius: 0.25rem;
+}
+
+/* --- headers --- */
+
+.headers-landing {
+    position: relative;
+    text-align: center;
+}
+
+.ph-landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 0.25rem;
+    padding: 0.4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* --- all forms --- */
+
+.form-heading {
+    color: #4a4a4f;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+input[type=text],
+input[type=email],
+.form-control {
+    color: #495057;
+    border: 2px solid #b87333;
+    border-radius: 0.25rem;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
 /* --- navbar --- */
 
 .navbar-brand {
@@ -48,7 +122,7 @@ body {
 
 .dropdown-menu {
     border: solid 2px;
-    color: #000000;
+    color: #669966;
 }
 
 .dropdown-menu:hover {
@@ -74,10 +148,6 @@ body {
 
 /* --- jumbotron hero image --- */
 
-.jumbotron-container {
-    margin-top: 180px;
-}
-
 .jumbotron {
     background-image: url("https://i.imgur.com/ysdDc1S.png");
     background-position: center;
@@ -93,24 +163,19 @@ body {
     text-align: center;
 }
 
-.section-divider {
-    background-color: #b87333;
-    margin: 1.5rem;
-}
-
 .badge-light {
     background-color: #b87333;
     border: none;
     color: #ffffff;
-    font-weight: lighter;
+    font-size: 1rem;
+    margin-left: 0.25rem;
 }
 
 .badge-light:hover {
     background-color: #4a4a4f;
     border: none;
     color: #000000;
-    font-weight: inherit;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .quote-landing {
@@ -121,9 +186,6 @@ body {
     font-size: 1.2rem;
     margin-top: 1rem;
     padding: 5px;
-    border: 2px solid;
-    border-color: #b87333;
-    border-radius: 0.3rem;
 }
 
 .quote {
@@ -146,63 +208,36 @@ body {
     text-align: center;
 }
 
-/* --- headers --- */
+/* --- our-coffees-landing --- */
 
-.headers-landing {
-    position: relative;
-    text-align: center;
-}
-
-.ph-landing {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid;
-    border-radius: 0.25rem;
-    padding: 0.4rem;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-
-/* --- landing cards ---*/
-
-.cards-beans {
+.our-coffees-landing {
     margin-top: 2rem;
-    padding-bottom: 2rem;
-}    
-
-.card-deck {
-    margin: auto;
     padding: 0;
 }
 
+.our-coffees-img {
+    padding: 0;
+    width: 100% ;
+    height: auto;
+}
+
+/* --- landing cards ---*/
+
 .card-header {
-    background-color: #000000;
+    background-color: #ffffff;
     color: #b87333;
     text-align: center;
 }
 
 .card-body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .card-text {
-    color: #ffffff;
+    color: #4a4a4f;
+    font-weight: lighter;
 }
 
-.card-body a {
-    background-color: #b87333;
-    color: #ffffff;
-    border: none;
-}
-
-.landing-button {
-    background-color: red;
-}
 
 /* --- landing sca courses --- */
 
@@ -218,56 +253,51 @@ body {
 
 /* --- brewing.html --- */
 
-.main-container {
-    margin-top: 180px;
-}
-
 .brew-cards {
     background-color: #ffffff;
     border: 2px solid #b87333;
     border-radius: 0.25rem;
 }
 
-.brew-cards a{
+.brew-cards:hover {
+    background-color: #ffffff;
+    border: 2px solid #669966;
+}
+
+.brew-cards a {
     color: #000000;
     text-decoration: none;
     background-color: #ffffff;
 }
 
 .brew-cards a:hover {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-}    
-
-.brew-cards img {
-    margin-top: 10px;
+    color: #669966;
 }
 
 /* --- intro.html --- */
 
-.intro-content {
+.sca-content {
     margin: 2rem;
-    border: 2px solid #b87333;
+    border: 2px solid #669966;
     border-radius: 0.25rem;
     padding: 1rem;
 }
 
-.intro-form {
-    background-color: #669966;
-    font-family: "Lato", sans-serif;
-    font-size: 2rem;
-}
+
+
+
 
 /* --- footer --- */
 
 .footer {
-    background-color: #4a4a4f;
+    background-color: #669966;
     color: #ffffff;
     font-size: 0.5rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
     padding-top: 2rem;
-    
 }
 
 .fab {
@@ -283,7 +313,6 @@ body {
 /* --- brewing guides (all .htmls) --- */
 
 .brewing-container {
-    margin-top: 200px;
     padding: 1rem;
     background-color: #669966;
     border: 1px solid #669966;
@@ -295,11 +324,12 @@ body {
 }
 
 .brewing-download {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
-.brewing-download a{
+.brewing-download a {
     text-decoration: none;
     color: #b87333;
 }
