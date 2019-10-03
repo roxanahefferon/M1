@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500&display=swap');
 
 body {
     margin: 0;
@@ -6,14 +6,14 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* --- all pages --- */
+/* all pages */
 
 .main-container {
     margin-top: 180px;
 }
 
 .section-divider {
-    background-color: #b87333;
+    background-color: #b22222;
     margin: 1.5rem;
 }
 
@@ -21,18 +21,19 @@ body {
     text-transform: uppercase;
 }
 
-/* --- buttons --- */
+/* buttons */
 
 .my-button {
-    background-color: #ffffff;
-    color: #4a4a4f;
+    margin-top: 1rem;
+    background-color: #b87333;
+    color: #ffffff;
 }
 
 .my-button:hover {
-    background-color: #b87333;
+    background-color: #4a4a4f;
     color: #ffffff;
-    border: 2px solid #b87333;
-    
+    border: 2px solid #4a4a4f;
+
 }
 
 .my-border {
@@ -40,7 +41,7 @@ body {
     border-radius: 0.25rem;
 }
 
-/* --- headers --- */
+/* headers */
 
 .headers-landing {
     position: relative;
@@ -52,21 +53,21 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid;
-    border-radius: 0.25rem;
-    padding: 0.4rem;
-    color: #ffffff;
+    padding: 1rem 2rem;
+    color: #000;
+    background-color: #fff;
+    opacity: 0.75;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
 }
 
-/* --- all forms --- */
+/* all forms */
 
 .form-heading {
     color: #4a4a4f;
     font-family: "Lato", sans-serif;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 2rem;
 }
 
@@ -80,7 +81,7 @@ input[type=email],
     margin-bottom: 0.25rem;
 }
 
-/* --- navbar --- */
+/* navbar */
 
 .navbar-brand {
     margin-left: 0.05rem;
@@ -146,36 +147,49 @@ input[type=email],
     padding: 0;
 }
 
-/* --- jumbotron hero image --- */
+/* jumbotron hero image */
 
-.jumbotron {
-    background-image: url("https://i.imgur.com/ysdDc1S.png");
+.landing-container {
+    background-image: url("https://i.imgur.com/kNQRjOg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 0.5rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.jumbotron h1,
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .jumbotron p {
-    color: #fafafa;
+    color: #ffffff;
+    font-size: 1rem;
     text-align: center;
 }
 
 .badge-light {
-    background-color: #b87333;
+    background-color: #b22222;
     border: none;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 0.25rem;
 }
 
 .badge-light:hover {
-    background-color: #4a4a4f;
+    background-color: #333333;
     border: none;
     color: #000000;
-    font-size: 1.5rem;
 }
 
 .quote-landing {
@@ -193,7 +207,7 @@ input[type=email],
     margin-bottom: 1rem;
 }
 
-/* --- about us --- */
+/* about us */
 
 .about {
     color: #fafafa;
@@ -208,7 +222,7 @@ input[type=email],
     text-align: center;
 }
 
-/* --- our-coffees-landing --- */
+/* our-coffees-landing */
 
 .our-coffees-landing {
     margin-top: 2rem;
@@ -217,11 +231,25 @@ input[type=email],
 
 .our-coffees-img {
     padding: 0;
-    width: 100% ;
+    width: 100%;
     height: auto;
 }
 
-/* --- landing cards ---*/
+/* coffee-single */
+
+.checked {
+  color: #b22222;
+}
+
+.coffee-rating {
+    margin-bottom: 0;
+}
+
+.inline-stars {
+    padding-right: 3rem;
+}
+
+/* landing cards */
 
 .card-header {
     background-color: #ffffff;
@@ -238,8 +266,7 @@ input[type=email],
     font-weight: lighter;
 }
 
-
-/* --- landing sca courses --- */
+/* landing sca courses */
 
 .sca-section {
     margin-top: 20px;
@@ -251,7 +278,7 @@ input[type=email],
     border-radius: 0.25rem;
 }
 
-/* --- brewing.html --- */
+/* brewing.html */
 
 .brew-cards {
     background-color: #ffffff;
@@ -276,7 +303,7 @@ input[type=email],
     color: #669966;
 }
 
-/* --- intro.html --- */
+/* intro.html */
 
 .sca-content {
     margin: 2rem;
@@ -285,18 +312,13 @@ input[type=email],
     padding: 1rem;
 }
 
-/* --- carousel --- */
+/* quotes */
 
-
-
-.carousel-control-prev-icon, 
-.carousel-control-next-icon {
-    font-size: 100px; 
-    color: red;
+.media-quotes img{
+    
 }
 
-
-/* --- footer --- */
+/* footer */
 
 .footer {
     background-color: #669966;
@@ -309,19 +331,23 @@ input[type=email],
 
 .fab {
     color: #ffffff;
-    font-size: 10px;
-    padding-left: 0.5rem;
+    font-size: 14px;
 }
 
 .fab:hover {
     font-size: x-large;
 }
 
-/* --- brewing guides (all .htmls) --- */
+.my-info p {
+    font-size: 14px;
+}
+
+/* brewing guides (all .htmls) */
 
 .brewing-container {
     padding: 1rem;
-    background-color: #669966;
+    background-color: #4a4a4f;
+    color: #fff;
     border: 1px solid #669966;
     border-radius: 0.25rem;
 }
@@ -338,10 +364,20 @@ input[type=email],
 
 .brewing-download a {
     text-decoration: none;
-    color: #b87333;
+    color: #b22222;
 }
 
-/* --- media queries --- */
+/* contact.html */
+
+.contact-us {
+    margin-top: 2rem;
+}   
+
+.fas {
+    color: #b22222;
+}
+
+/* media queries */
 
 @media (min-width: 768px) {
     .quote-landing {
@@ -350,14 +386,11 @@ input[type=email],
 }
 
 @media (min-width: 768px) {
-    .our-coffee-img {
-        height: 180px;
-    }
     .footer {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .fab {
-        font-size: 16px;
+        font-size: 1.5rem;
     }
     .ph-landing {
         font-size: 2rem;
@@ -368,5 +401,5 @@ input[type=email],
     .carousel-inner img {
         width: 334px;
         height: 229px;
-}
+    }
 }
