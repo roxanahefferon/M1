@@ -63,6 +63,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
+    border-radius: 0.25rem;
 }
 
 /* all forms */
@@ -201,11 +202,9 @@ h1 {
     color: #fff;
     text-align: center;
     font-family: "Lora", sans-serif;
-    font-weight: 500;
     font-size: 1.2rem;
     margin-top: 1rem;
     padding: 5px;
-    border-color: #fff;
 }
 
 .quote {
@@ -241,9 +240,13 @@ h1 {
 }
 
 .our-coffees-img {
-    padding: 0;
-    width: 100%;
-    height: auto;
+    border-radius: 0.25rem;
+}
+
+/* brewing */
+
+.brewguides-img {
+    border-radius: 0.25rem;
 }
 
 /* coffee-single */
@@ -283,9 +286,7 @@ h1 {
     margin-top: 20px;
 }
 
-.sca-img {
-    padding: 0;
-    border: 2px solid;
+.ourcourses-img {
     border-radius: 0.25rem;
 }
 
@@ -431,6 +432,9 @@ h1 {
     }
     .contact-info {
         margin-right: 0;
+    }
+    .landingbrew-cards {
+        margin-left: 10rem;
     }
 }
 
