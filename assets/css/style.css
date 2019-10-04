@@ -88,17 +88,10 @@ input[type=email],
 
 /* images */
 
-.our-coffees-img {
-    border-radius: 0.25rem;
-    max-width: 100%;
-}
-
-.brewguides-img {
-    border-radius: 0.25rem;
-    max-width: 100%;
-}
-
-.ourcourses-img {
+.ourcoffees-img,
+.brewguides-img,
+.ourcourses-img,
+.contact-img {
     border-radius: 0.25rem;
     max-width: 100%;
 }
@@ -391,7 +384,7 @@ h1 {
 }
 
 .contact-form {
-    background-color: #003333;
+    background-color: #b22222;
     border-radius: 0.25rem;
     color: #fff;
     margin-top: 0.5rem;
