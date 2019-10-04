@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500&display=swap');
 
 body {
     margin: 0;
@@ -27,15 +27,17 @@ body {
 .my-button {
     margin-top: 1rem;
     background-color: #b87333;
-    color: #ffffff;
+    color: #fff;
 }
 
 .my-button:hover {
-    background-color: #4a4a4f;
-    color: #ffffff;
-    border: 2px solid #4a4a4f;
+    background-color: #333333;
+    color: #fff;
+    border: 2px solid #333333;
 
 }
+
+/* borders */
 
 .my-border {
     border: 2px solid #b87333;
@@ -66,9 +68,10 @@ body {
 /* all forms */
 
 .form-heading {
-    color: #4a4a4f;
-    font-family: "Lato", sans-serif;
+    color: #b22222;
+    font-family: "Lora", sans-serif;
     font-weight: bolder;
+    text-transform: uppercase;
     margin-bottom: 2rem;
 }
 
@@ -88,13 +91,13 @@ input[type=email],
     margin-left: 0.05rem;
     margin-top: 0.25rem;
     border: solid 2px;
-    border-color: #000000;
+    border-color: #000;
     border-radius: 0.25rem;
     padding: .40rem .75rem;
 }
 
 .navbar-light {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .navbar fixed-top {
@@ -107,7 +110,7 @@ input[type=email],
 
 .navbar .navbar-toggler {
     border: solid 2px;
-    border-color: #000000;
+    border-color: #000;
 }
 
 .navbar .navbar-toggler:hover {
@@ -124,7 +127,7 @@ input[type=email],
 
 .dropdown-menu {
     border: solid 2px;
-    color: #669966;
+    color: #003333;
 }
 
 .dropdown-menu:hover {
@@ -136,15 +139,15 @@ input[type=email],
 }
 
 .nav-item a {
-    color: #000000;
+    color: #000;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
+    color: #000;
 }
 
 .bgblack {
-    background-color: #000000;
+    background-color: #000;
     padding: 0;
 }
 
@@ -165,7 +168,7 @@ input[type=email],
 }
 
 h1 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -174,15 +177,16 @@ h1 {
 }
 
 .jumbotron p {
-    color: #ffffff;
+    color: #fff;
     font-size: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
 .badge-light {
-    background-color: #b22222;
+    background-color: #003333;
     border: none;
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5rem;
     margin-left: 0.25rem;
 }
@@ -190,17 +194,18 @@ h1 {
 .badge-light:hover {
     background-color: #333333;
     border: none;
-    color: #000000;
+    color: #fff;
 }
 
 .quote-landing {
-    color: #b87333;
+    color: #fff;
     text-align: center;
     font-family: "Lora", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     margin-top: 1rem;
     padding: 5px;
+    border-color: #fff;
 }
 
 .quote {
@@ -208,10 +213,15 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.quote i {
+    color: #b22222;
+    font-size: 2rem;
+}
+
 /* about us */
 
 .about {
-    color: #fafafa;
+    color: #fff;
     font-weight: lighter;
     margin-bottom: 0.5rem;
     padding: 0.5rem 0;
@@ -253,17 +263,17 @@ h1 {
 /* landing cards */
 
 .card-header {
-    background-color: #ffffff;
+    background-color: #fff;
     color: #b87333;
     text-align: center;
 }
 
 .card-body {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .card-text {
-    color: #4a4a4f;
+    color: #333333;
     font-weight: lighter;
 }
 
@@ -282,26 +292,26 @@ h1 {
 /* brewing.html */
 
 .brew-cards {
-    background-color: #ffffff;
+    background-color: #fff;
     border: 2px solid #b87333;
     border-radius: 0.25rem;
 }
 
 .brew-cards:hover {
-    background-color: #ffffff;
-    border: 2px solid #669966;
+    background-color: #fff;
+    border: 2px solid #003333;
 }
 
 .brew-cards a {
-    color: #000000;
+    color: #000;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .brew-cards a:hover {
     font-size: 20px;
     font-weight: bold;
-    color: #669966;
+    color: #003333;
 }
 
 /* intro.html */
@@ -320,8 +330,8 @@ h1 {
 /* footer */
 
 .footer {
-    background-color: #669966;
-    color: #ffffff;
+    background-color: #003333;
+    color: #fff;
     font-size: 0.5rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
@@ -329,7 +339,7 @@ h1 {
 }
 
 .fab {
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -345,14 +355,14 @@ h1 {
 
 .brewing-container {
     padding: 1rem;
-    background-color: #4a4a4f;
+    background-color: #333333;
     color: #fff;
     border: 1px solid #669966;
     border-radius: 0.25rem;
 }
 
 .brewing-container h2 {
-    font-family: "Lato", sans-serif;
+    font-family: "Lora", sans-serif;
 }
 
 .brewing-download {
@@ -370,10 +380,35 @@ h1 {
 
 .contact-us {
     margin-top: 2rem;
+    padding: 0;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 0.25rem;
 }   
+
+.contact-form {
+    background-color: #003333;
+    border-radius: 0.25rem;
+    color: #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+}
+
+.contact-form p {
+    padding: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bank-hol {
+    font-size: 0.75rem;
+}
 
 .fas {
     color: #b22222;
+    margin: 0.5rem 0;
 }
 
 /* media queries */
@@ -392,7 +427,10 @@ h1 {
         font-size: 1.5rem;
     }
     .ph-landing {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    .contact-info {
+        margin-right: 0;
     }
 }
 
@@ -400,5 +438,12 @@ h1 {
     .carousel-inner img {
         width: 334px;
         height: 229px;
+    }
+    .navbar-brand img {
+        max-height: 80px;
+        max-width: 80px;
+    }
+    .main-container {
+        margin-top: 140px;
     }
 }
