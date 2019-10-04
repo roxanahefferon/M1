@@ -202,7 +202,7 @@ h1 {
     color: #fff;
     text-align: center;
     font-family: "Lora", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
     padding: 5px;
 }
@@ -241,12 +241,24 @@ h1 {
 
 .our-coffees-img {
     border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+.coffees-text {
+    background-color: #333333;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.coffees-text p{
+    padding: 1rem;
 }
 
 /* brewing */
 
 .brewguides-img {
     border-radius: 0.25rem;
+    max-width: 100%;
 }
 
 /* coffee-single */
@@ -282,12 +294,11 @@ h1 {
 
 /* landing sca courses */
 
-.sca-section {
-    margin-top: 20px;
-}
+/* courses */
 
 .ourcourses-img {
     border-radius: 0.25rem;
+    max-width: 100%;
 }
 
 /* brewing.html */
