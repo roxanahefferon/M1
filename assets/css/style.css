@@ -86,6 +86,23 @@ input[type=email],
     margin-bottom: 0.25rem;
 }
 
+/* images */
+
+.our-coffees-img {
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+.brewguides-img {
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+.ourcourses-img {
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
 /* navbar */
 
 .navbar-brand {
@@ -152,7 +169,7 @@ input[type=email],
     padding: 0;
 }
 
-/* jumbotron hero image */
+/* jumbotron landing-img */
 
 .landing-container {
     background-image: url("https://i.imgur.com/kNQRjOg.png");
@@ -174,7 +191,7 @@ h1 {
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron p {
@@ -232,50 +249,24 @@ h1 {
     text-align: center;
 }
 
-/* our-coffees-landing */
+/* our coffees - landing */
 
 .our-coffees-landing {
     margin-top: 2rem;
     padding: 0;
 }
 
-.our-coffees-img {
-    border-radius: 0.25rem;
-    max-width: 100%;
-}
-
 .coffees-text {
-    background-color: #333333;
+    background-color: #003333;
     color: #fff;
     border-radius: 0.25rem;
 }
 
-.coffees-text p{
+.coffees-text p {
     padding: 1rem;
 }
 
-/* brewing */
-
-.brewguides-img {
-    border-radius: 0.25rem;
-    max-width: 100%;
-}
-
-/* coffee-single */
-
-.checked {
-  color: #b22222;
-}
-
-.coffee-rating {
-    margin-bottom: 0;
-}
-
-.inline-stars {
-    padding-right: 3rem;
-}
-
-/* landing cards */
+/* coffees.html */
 
 .card-header {
     background-color: #fff;
@@ -291,20 +282,47 @@ h1 {
     color: #000;
 }
 
-/* landing sca courses */
+/* coffees-single and coffees-blends.html */
 
-/* courses */
+.checked {
+    color: #b22222;
+}
 
-.ourcourses-img {
+.coffee-rating {
+    margin-bottom: 0;
+}
+
+.inline-stars {
+    padding-right: 3rem;
+}
+
+/* courses-landing */
+
+.sca-content {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+/* brewing-landing */
+
+.brewing-div {
+    background-color: #b22222;
+    color: #fff;
+}
+
+.brew-cardsland {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
     border-radius: 0.25rem;
-    max-width: 100%;
 }
 
 /* brewing.html */
 
 .brew-cards {
     background-color: #fff;
-    border: 2px solid #b87333;
+    border: none;
+    border: 3px solid #b87333;
     border-radius: 0.25rem;
 }
 
@@ -323,43 +341,6 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     color: #003333;
-}
-
-/* intro.html */
-
-.sca-content {
-    margin: 2rem;
-    padding: 1rem;
-}
-
-/* quotes */
-
-.media-quotes img{
-    
-}
-
-/* footer */
-
-.footer {
-    background-color: #003333;
-    color: #fff;
-    font-size: 0.5rem;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 2rem;
-    padding-top: 2rem;
-}
-
-.fab {
-    color: #fff;
-    font-size: 14px;
-}
-
-.fab:hover {
-    font-size: x-large;
-}
-
-.my-info p {
-    font-size: 14px;
 }
 
 /* brewing guides (all .htmls) */
@@ -387,6 +368,18 @@ h1 {
     color: #b22222;
 }
 
+/* carousel */
+
+.carousel-container {
+    border: 2px solid #b87333;
+}
+
+.carousel-heading h2 {
+    margin-top: 2rem;
+}
+
+/* quotes */
+
 /* contact.html */
 
 .contact-us {
@@ -395,7 +388,7 @@ h1 {
     background-color: #333333;
     color: #fff;
     border-radius: 0.25rem;
-}   
+}
 
 .contact-form {
     background-color: #003333;
@@ -420,6 +413,30 @@ h1 {
 .fas {
     color: #b22222;
     margin: 0.5rem 0;
+}
+
+/* footer */
+
+.footer {
+    background-color: #003333;
+    color: #fff;
+    font-size: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.fab {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fab:hover {
+    font-size: x-large;
+}
+
+.my-info p {
+    font-size: 14px;
 }
 
 /* media queries */
@@ -459,5 +476,11 @@ h1 {
     }
     .main-container {
         margin-top: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .landingbrew-cards {
+        margin-left: 0;
     }
 }
