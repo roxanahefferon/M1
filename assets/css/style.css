@@ -18,6 +18,12 @@ body {
     margin: 1.5rem;
 }
 
+.section-divider--sm {
+    background-color: #003333;
+    margin: 0.5rem;
+    width: 50px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -33,8 +39,6 @@ body {
 .my-button:hover {
     background-color: #333333;
     color: #fff;
-    border: 2px solid #333333;
-
 }
 
 /* borders */
@@ -49,6 +53,7 @@ body {
 .headers-landing {
     position: relative;
     text-align: center;
+    padding: 0;
 }
 
 .ph-landing {
@@ -56,7 +61,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     color: #000;
     background-color: #fff;
     opacity: 0.75;
@@ -93,7 +98,6 @@ input[type=email],
 .ourcourses-img,
 .contact-img {
     border-radius: 0.25rem;
-    max-width: 100%;
 }
 
 /* navbar */
@@ -101,9 +105,6 @@ input[type=email],
 .navbar-brand {
     margin-left: 0.05rem;
     margin-top: 0.25rem;
-    border: solid 2px;
-    border-color: #000;
-    border-radius: 0.25rem;
     padding: .40rem .75rem;
 }
 
@@ -120,8 +121,7 @@ input[type=email],
 }
 
 .navbar .navbar-toggler {
-    border: solid 2px;
-    border-color: #000;
+    border: 2px solid #003333;
 }
 
 .navbar .navbar-toggler:hover {
@@ -184,7 +184,7 @@ h1 {
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(51, 51, 51, 0.25);
 }
 
 .jumbotron p {
@@ -195,7 +195,7 @@ h1 {
 }
 
 .badge-light {
-    background-color: #003333;
+    background-color: #b87333;
     border: none;
     color: #fff;
     font-size: 1.5rem;
@@ -231,7 +231,6 @@ h1 {
 
 .about {
     color: #fff;
-    font-weight: lighter;
     margin-bottom: 0.5rem;
     padding: 0.5rem 0;
     border-radius: 0.25rem;
@@ -244,11 +243,6 @@ h1 {
 
 /* our coffees - landing */
 
-.our-coffees-landing {
-    margin-top: 2rem;
-    padding: 0;
-}
-
 .coffees-text {
     background-color: #003333;
     color: #fff;
@@ -257,6 +251,18 @@ h1 {
 
 .coffees-text p {
     padding: 1rem;
+}
+
+.linkcoffees {
+    text-decoration: none;
+    color: #b22222;
+    font-weight: bold;
+}
+
+.linkcoffees a:hover {
+    text-decoration: none;
+    color: #b87333;
+    font-weight: bold;
 }
 
 /* coffees.html */
@@ -293,14 +299,26 @@ h1 {
 
 .sca-content {
     margin: 2rem;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.sca-text {
+    background-color: #b22222;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.sca-button {
+    margin-bottom: 2rem;
 }
 
 /* brewing-landing */
 
 .brewing-div {
-    background-color: #b22222;
+    background-color: #333333;
+    border-radius: 0.25rem;
     color: #fff;
+    margin-top: 0;
 }
 
 .brew-cardsland {
@@ -308,6 +326,18 @@ h1 {
     color: #000;
     font-weight: bold;
     border-radius: 0.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+.brew-cardsland a{
+    color: #003333;
+    text-decoration: none;
+}
+
+.brew-cardsland a:hover {
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 /* brewing.html */
@@ -321,17 +351,17 @@ h1 {
 
 .brew-cards:hover {
     background-color: #fff;
-    border: 2px solid #003333;
+    border: 3px solid #003333;
 }
 
 .brew-cards a {
     color: #000;
+    font-weight: bold;
     text-decoration: none;
     background-color: #fff;
 }
 
 .brew-cards a:hover {
-    font-size: 20px;
     font-weight: bold;
     color: #003333;
 }
@@ -364,14 +394,36 @@ h1 {
 /* carousel */
 
 .carousel-container {
-    border: 2px solid #b87333;
+    margin: 0;
+    border: 5px solid #b87333;
+    border-radius: 0.25rem;
+    padding: 0;
 }
 
 .carousel-heading h2 {
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 /* quotes */
+
+.blockquote {
+    font-size: 0.85rem;
+    padding: 0.25rem;
+}
+
+.quotes-container {
+    margin-top: 2rem;
+    background-color: #000;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+/* signup-landing */
+
+.signup-container {
+    margin-top: 2rem;
+}
 
 /* contact.html */
 
