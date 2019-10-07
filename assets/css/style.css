@@ -18,12 +18,6 @@ body {
     margin: 1.5rem;
 }
 
-.section-divider--sm {
-    background-color: #003333;
-    margin: 0.5rem;
-    width: 50px;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -38,6 +32,7 @@ body {
 
 .my-button:hover {
     background-color: #333333;
+    border-color: #333333;
     color: #fff;
 }
 
@@ -98,6 +93,8 @@ input[type=email],
 .ourcourses-img,
 .contact-img {
     border-radius: 0.25rem;
+    width: 100%;
+    height: auto;
 }
 
 /* navbar */
@@ -159,22 +156,24 @@ input[type=email],
 
 .bgblack {
     background-color: #000;
+    border-radius: 0.25rem;
     padding: 0;
 }
 
 /* jumbotron landing-img */
 
 .landing-container {
+    margin-top: 155px;
     background-image: url("https://i.imgur.com/kNQRjOg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0.25rem;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -185,6 +184,8 @@ h1 {
 
 .jumbotron {
     background-color: rgba(51, 51, 51, 0.25);
+    padding: 0;
+    margin: 0;
 }
 
 .jumbotron p {
@@ -218,8 +219,7 @@ h1 {
 }
 
 .quote {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1.8rem 0;
 }
 
 .quote i {
@@ -231,14 +231,13 @@ h1 {
 
 .about {
     color: #fff;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem 0;
+    margin-bottom: 1.5rem;
     border-radius: 0.25rem;
 }
 
 .about p {
-    margin: 1rem;
-    text-align: center;
+    margin-left: 1rem;
+
 }
 
 /* our coffees - landing */
@@ -250,7 +249,8 @@ h1 {
 }
 
 .coffees-text p {
-    padding: 1rem;
+    margin-left: 1rem;
+    padding-top: 1.5rem;
 }
 
 .linkcoffees {
@@ -297,54 +297,30 @@ h1 {
 
 /* courses-landing */
 
-.sca-content {
-    margin: 2rem;
-    padding: 2rem;
-}
-
-.sca-text {
+.sca {
     background-color: #b22222;
     border-radius: 0.25rem;
     color: #fff;
+    margin-bottom: 2rem;
+}
+
+.sca-section {
+    margin: 0;
+    padding: 0;
+}
+.sca p {
+    padding: 0 1.5rem;
+    margin-top: 2rem;
 }
 
 .sca-button {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 /* brewing-landing */
 
-.brewing-div {
-    background-color: #333333;
-    border-radius: 0.25rem;
-    color: #fff;
-    margin-top: 0;
-}
-
-.brew-cardsland {
-    background-color: #fff;
-    color: #000;
-    font-weight: bold;
-    border-radius: 0.25rem;
-    margin: 0;
-    padding: 0;
-}
-
-.brew-cardsland a{
-    color: #003333;
-    text-decoration: none;
-}
-
-.brew-cardsland a:hover {
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-/* brewing.html */
-
 .brew-cards {
     background-color: #fff;
-    border: none;
     border: 3px solid #b87333;
     border-radius: 0.25rem;
 }
@@ -391,13 +367,40 @@ h1 {
     color: #b22222;
 }
 
+/* brewing.html */
+
+.brewing-div {
+    background-color: #333333;
+    border-radius: 0.25rem;
+    color: #fff;
+    margin-top: 0;
+}
+
+.brew-cardsland {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+.brew-cardsland a{
+    color: #003333;
+    text-decoration: none;
+}
+
+.brew-cardsland a:hover {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
 /* carousel */
 
 .carousel-container {
-    margin: 0;
     border: 5px solid #b87333;
     border-radius: 0.25rem;
-    padding: 0;
+    padding: 2rem 0;
 }
 
 .carousel-heading h2 {
@@ -422,26 +425,46 @@ h1 {
 /* signup-landing */
 
 .signup-container {
-    margin-top: 2rem;
+    margin: 1rem 0;
+    padding: 0;
 }
+
+/* intro.html */
+
+.media-container {
+    margin: 0;
+    padding: 0;
+}
+
+.intro,
+.barista,
+.brewing {
+    border-left: 2px solid #b87333;
+    padding: 1rem;
+}
+
+.media-intro img{
+    border-radius: 0.25rem;
+    padding-left: 1rem;
+}
+
+
 
 /* contact.html */
 
 .contact-us {
     margin-top: 2rem;
-    padding: 0;
     background-color: #333333;
     color: #fff;
     border-radius: 0.25rem;
 }
 
 .contact-form {
-    background-color: #b22222;
-    border-radius: 0.25rem;
-    color: #fff;
-    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
-    padding: 0;
+}
+
+.call-us {
+    font-size: 20px;
 }
 
 .contact-form p {
