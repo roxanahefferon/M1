@@ -27,20 +27,19 @@ body {
 
 .my-button {
     margin-top: 1rem;
-    background-color: #b87333;
-    color: #fff;
+    background-color: #667f83;
+    color: #fafafa;
 }
 
 .my-button:hover {
-    background-color: #333333;
-    border-color: #333333;
-    color: #fff;
+    background-color: #fe5f55;
+    color: #fafafa;
 }
 
 /* borders */
 
 .my-border {
-    border: 2px solid #b87333;
+    border: 2px solid #333745;
     border-radius: 0.25rem;
 }
 
@@ -70,7 +69,7 @@ body {
 /* all forms */
 
 .form-heading {
-    color: #b22222;
+    color: #fe5f55;
     font-family: "Lora", sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
@@ -80,8 +79,8 @@ body {
 input[type=text],
 input[type=email],
 .form-control {
-    color: #495057;
-    border: 2px solid #b87333;
+    color: #667f83;
+    border: 2px solid #333745;
     border-radius: 0.25rem;
     width: 100%;
     margin-bottom: 0.25rem;
@@ -113,6 +112,10 @@ input[type=email],
 .navbar fixed-top {
     position: fixed !important;
 }
+.navbar-nav {
+    align: center;
+}
+
 
 .navbar-brand:hover {
     border-color: #b87333;
@@ -153,6 +156,10 @@ input[type=email],
 
 .navbar-light .navbar-nav .nav-link {
     color: #000;
+}
+
+.navmedia {
+    float: right;
 }
 
 /* jumbotron landing-img */
@@ -437,24 +444,33 @@ h1 {
 
 /* intro.html */
 
-.courses-container {
-    margin: 0;
-    padding: 0;
+.name-accordion {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2rem 0;
 }
 
-.intro,
-.barista,
-.brewing {
-    border-left: 2px solid #b87333;
-    padding: 1rem;
+.card-accordion {
+    margin: 1rem 0;
 }
 
-.media-intro img{
-    border-radius: 0.25rem;
-    padding-left: 1rem;
+.header-accordion {
+    background-color: #667f83;
 }
 
+.card-link {
+    color: #fafafa;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
 
+.card-link:hover {
+    color: #fe5f55;
+}
+
+.body-accordion p {
+    font-size: 14px;
+}
 
 /* contact.html */
 
@@ -485,32 +501,31 @@ h1 {
 }
 
 .fas {
-    color: #b22222;
+    color: #333745;
     margin: 0.5rem 0;
 }
 
 /* footer */
 
 .footer {
-    background-color: #003333;
-    color: #fff;
-    font-size: 0.5rem;
+    background-color: #c7efcf;
+    color: #333745;
+    font-size: 1rem;
     font-family: "Montserrat", sans-serif;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-top: 2rem;
 }
 
+.footer p {
+    margin-bottom:0;
+}
+
 .fab {
-    color: #fff;
-    font-size: 14px;
+    color: #333745;
 }
 
 .fab:hover {
-    font-size: x-large;
-}
-
-.my-info p {
-    font-size: 14px;
+    color: #fe5f55;
 }
 
 /* media queries */
@@ -523,10 +538,10 @@ h1 {
         font-size: 2.5rem;
     }
     .footer {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .fab {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .ph-landing {
         font-size: 3rem;
@@ -539,6 +554,9 @@ h1 {
     }
     .cardsbrew {
         padding: 0.5rem;
+    }
+    .name-accordion {
+        font-size: 46px;
     }
 
     .ourcoffees-img,
