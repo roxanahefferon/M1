@@ -427,7 +427,11 @@ h1 {
     background-color: #000;
     border-radius: 0.25rem;
     color: #fff;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
 }
 
 /* signup-landing */
@@ -530,9 +534,7 @@ h1 {
 /* media queries */
 
 @media (min-width: 768px) {
-    .navbar-light {
-        margin-left: 5rem;
-    }
+
     .jumbotron p {
         font-size: 2rem;
     }
@@ -541,9 +543,6 @@ h1 {
     }
     .footer {
         font-size: 1.2rem;
-    }
-    .fab {
-        font-size: 2rem;
     }
     .ph-landing {
         font-size: 3rem;
@@ -578,6 +577,11 @@ h1 {
     padding-right: 2rem;
     margin-right: 0;
     }
+
+    .quote-img {
+        margin-bottom: 2rem;
+    }
+
 }
 
 @media (max-width: 576px) {
