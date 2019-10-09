@@ -132,23 +132,165 @@
         </div>
     </div>
 
-<hr class="section-divider">
+<!-- carousel -->
 
-    <!-- contact us -->
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col">
+				<h3 class="text-center uppercase my-5">What our customers are saying...</h3>
+			</div>
+		</div>
+	</div>
 
-    <div class="container contact-info">
-        <div class="row no-gutters">
-            <div class="col-6 offset-3">
-                <i class="fas fa-envelope fa-2x"></i><p>hi@coffeeproject.ie</p>
-                <i class="fas fa-phone-square-alt fa-2x"></i>
-                <p>+35313657616</p>
-                <i class="fas fa-clock fa-2x"></i>
-                <p>8-16.30 Mon| Sat <span class="bank-hol"><em>*Closed on bank holidays</em></span></p>
-                <i class="fas fa-address-card fa-2x"></i>
-                <p>137 Peaberry Street, Dublin 1 | A12 BC34</p>
-            </div>
-        </div>
-    </div>
+
+	<div class="container carousel-container">
+		<div class="row no-gutters">
+			<div class="col">
+
+				<div id="testimonialscarousel" class="carousel slide" data-ride="carousel">
+
+					<!-- indicators -->
+
+					<ul class="carousel-indicators">
+						<li data-target="#testimonialscarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#testimonialscarousel" data-slide-to="1"></li>
+						<li data-target="#testimonialscarousel" data-slide-to="2"></li>
+					</ul>
+
+					<!-- slides -->
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="img-centering d-flex justify-content-center">
+								<img src="./assets/images/carousel1.jpg" alt="Oxmantown Café Image">
+								<div class="carousel-caption">
+									<p>"Feedback from our customers has been very positive", Oxmantown.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="img-centering d-flex justify-content-center">
+								<img src="./assets/images/carousel2.jpg" alt="BIBI's Café Image">
+								<div class="carousel-caption">
+									<p>"Coffee Project Co. always with us every step of the way", BIBI's.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="img-centering d-flex justify-content-center">
+								<img src="./assets/images/carousel3.jpg" alt="Forest Ave. Restaurant Image">
+								<div class="carousel-caption">
+									<p>"Coffee Project Co. is exceptional quality coffee", Forest Ave.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- controls -->
+
+
+					<a class="carousel-control-prev" href="#testimonialscarousel" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#testimonialscarousel" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- quotes -->
+
+	<div class="container quotes-container">
+		<div class="row no-gutters">
+			<div class="col-10 offset-1">
+				<h3 class="text-center uppercase my-5">What our students are saying...</h3>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-10 offset-1 col-lg-3">
+				<div class="media">
+					<div class="d-none d-sm-block">
+						<img src="./assets/images/man1.jpg" class="my-border mr-3 p-2" height=100 width=100>
+              </div>
+						<div class="media-body">
+							<blockquote class="blockquote">
+								<p> "I got a job within a week. Really recommended!"</p>
+								<div class="d-none d-sm-block">
+									<p> (Luis Angel) </p>
+								</div>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 offset-1 col-lg-3">
+					<div class="media">
+						<div class="d-none d-sm-block">
+							<img src="./assets/images/woman1.jpg" class="my-border mr-3 p-2" height=100 width=100>
+              </div>
+							<div class="media-body">
+								<blockquote class="blockquote">
+									<p> "The perfect course! I absolutely loved every minute of it."</p>
+									<div class="d-none d-sm-block">
+										<p> (Molly Brady)</p>
+									</div>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 offset-1 col-lg-3">
+						<div class="media">
+							<div class="d-none d-sm-block">
+								<img src="./assets/images/man2.jpg" class="my-border mr-3 p-2" height=100 width=100>
+              </div>
+								<div class="media-body">
+									<blockquote class="blockquote">
+										<p> "I invested in myself and it has already paid off!"</p>
+										<div class="d-none d-sm-block">
+											<p> (Dan Smullen)</p>
+										</div>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- form -->
+
+				<div class="container signup-container">
+					<div class="row no-gutters">
+						<div class="col-10 offset-1">
+                        <div class="text-center mb-1">
+							<h3 class="form-heading uppercase mb-0">Stay updated </h3>
+                            <i class="fas fa-mail-bulk fa-5x"></i>
+                            </div>
+                            <p style="color: #003333;">To receive all the latest coffee news, insights, free training tools and special offers, sign up to our monthly newsletter.</p>
+							<hr class="section-divider">
+                            <form>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+									<small id="emailHelp" class="form-text text-muted">*We promise not to share with third parties.</small>
+								</div>
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+									<div class="form-group">
+										<label for="repeatPassword">Repeat Password</label>
+										<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                                    </div>
+                                        <div class="text-center">
+										<button type="submit" class="btn my-button">Submit</button>
+                                        </div>
+							</form>
+                            </div>
+                            </div>
+                            </div>
+
 
 <!-- footer -->
 
