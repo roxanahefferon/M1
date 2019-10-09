@@ -74,3 +74,5 @@ Technologies
 3.	Bootstrap (4.0.0)
 ---
 
+Created course registration form on https://form.jotformeu.com/92816922928368
+Created product order form on https://form.jotformeu.com/92817292835366
