@@ -435,23 +435,30 @@ h1 {
 /* intro.html */
 
 .name-accordion {
-    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
     font-weight: bold;
-    margin: 2rem 0;
+    margin: 1rem 0;
+}
+
+.text-accordion {
+    margin-left: 1rem;
+    text-align: center;
+    font-weight: 700;
 }
 
 .card-accordion {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .header-accordion {
     background-color: #667f83;
+    padding: 0;
 }
 
 .card-link {
     color: #fafafa;
-    font-size: 2rem;
-    margin-bottom: 0;
+    font-size: 1.3rem;
 }
 
 .card-link:hover {
@@ -459,7 +466,9 @@ h1 {
 }
 
 .body-accordion p {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 1rem;
 }
 
 /* contact.html */
@@ -521,7 +530,7 @@ h1 {
 /* media queries */
 
 @media (min-width: 768px) {
-    .navbar-nav {
+    .navbar-light {
         margin-left: 5rem;
     }
     .jumbotron p {
@@ -551,6 +560,12 @@ h1 {
     .name-accordion {
         font-size: 46px;
     }
+    .card-link {
+    font-size: 2rem;
+    }
+
+    .body-accordion p {
+    font-size: 20px;
 
     .ourcoffees-img,
     .brewguides-img,
