@@ -432,11 +432,6 @@ h1 {
 
 /* signup-landing */
 
-.signup-container {
-    margin: 1rem 0;
-    padding: 0;
-}
-
 /* intro.html */
 
 .name-accordion {
@@ -535,11 +530,8 @@ h1 {
     .quote-landing {
         font-size: 2.5rem;
     }
-    .about-cards {
-        float: left;
-    }
     .footer {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .fab {
         font-size: 2rem;
@@ -570,12 +562,6 @@ h1 {
     .list-inline-item:not(:last-child) {
     padding-right: 2rem;
     margin-right: 0;
-    }
-}
-
-@media (min-width: 769px) {
-    .signup-container {
-        margin-left: 6rem;
     }
 }
 
