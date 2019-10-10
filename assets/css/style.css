@@ -88,6 +88,7 @@ input[type=email],
 
 /* images */
 
+.cards-landing-img,
 .ourcoffees-img,
 .brewguides-img,
 .ourcourses-img,
@@ -219,6 +220,65 @@ h1 {
     color: #fe5f55;
     font-size: 2rem;
 }
+
+/* cards landing */
+
+.cards-landing-row {
+    padding: 0;
+    margin: auto;
+}
+
+
+.cards-landing-img {
+    padding: 4rem;
+    margin: 0;
+}
+
+.cards-landing-heading {
+    padding: 15px;
+    margin: 24px;
+}
+
+.cards-landing-text,
+.collapse p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.cards-h2 {
+    font-weight: bold;
+}
+
+.collapse-landing a{
+    text-decoration: none;
+    color: #fe5f55;
+    font-weight: bold;
+}
+
+.cards-landing-heading {
+    font-size: 1.1rem;
+}
+
+.our-story {
+    font-family: "Lora", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cards-landing-container {
+    background-color: #c7efcf;
+    border-radius: 0.25rem;
+}
+
+.cards-landing-text {
+    font-family: "Lora", sans-serif;
+}
+
+
+
+
 
 /* about us */
 
@@ -392,7 +452,6 @@ h1 {
     font-size: 1.5rem;
     text-decoration: none;
 }
-
 
 /* carousel */
 
@@ -590,8 +649,12 @@ h1 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 992px){
     .quotes-container {
         padding-left: 5rem;
     }
+    .landing {
+    margin: 0 10rem;
+    padding: 0;
+}
 }

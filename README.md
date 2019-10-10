@@ -76,3 +76,7 @@ Technologies
 
 Created course registration form on https://form.jotformeu.com/92816922928368
 Created product order form on https://form.jotformeu.com/92817292835366
+
+*** <div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+*** <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+*** <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
