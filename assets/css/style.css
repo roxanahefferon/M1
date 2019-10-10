@@ -194,9 +194,9 @@ h1 {
 }
 
 .badge-light {
-    background-color: #c7efcf;
+    background-color: #fe5f55;
     border: none;
-    color: #333745;
+    color: #fff;
     font-size: 1.5rem;
     margin-left: 0.25rem;
 }
@@ -405,8 +405,8 @@ h1 {
 }
 
 .carousel-caption p{
-    width: inherit;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bold;
     background-color: rgba(51, 51, 51, 0.75);
     color: #fff;
 }
@@ -423,11 +423,16 @@ h1 {
     background-color: #000;
     border-radius: 0.25rem;
     color: #fff;
-    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 .blockquote {
     margin-bottom: 1rem;
+}
+
+.media-quotes {
+    padding: 0;
 }
 
 /* signup-landing */
@@ -493,10 +498,6 @@ h1 {
     margin-bottom: 0;
     font-size: 1rem;
     text-align: center;
-}
-
-.bank-hol {
-    font-size: 0.75rem;
 }
 
 .fas {
@@ -573,11 +574,6 @@ h1 {
     padding-right: 2rem;
     margin-right: 0;
     }
-
-    .quote-img {
-        margin-bottom: 2rem;
-    }
-
 }
 
 @media (max-width: 576px) {
@@ -591,5 +587,11 @@ h1 {
     }
     .main-container {
         margin-top: 140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .quotes-container {
+        padding-left: 5rem;
     }
 }
