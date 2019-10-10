@@ -598,6 +598,11 @@ h1 {
     }
 }
 
+@media (min-width: 576) and (max-width: 768){
+    .blockquote p {
+    font-size: 1.2;
+}
+
 @media (min-width: 992px){
     .quotes-container {
         padding-left: 5rem;
