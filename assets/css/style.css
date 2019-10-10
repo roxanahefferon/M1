@@ -15,7 +15,7 @@ body {
 }
 
 .section-divider {
-    background-color: #333745;
+    background-color: #3333745;
     margin: 1.5rem;
 }
 
@@ -27,13 +27,14 @@ body {
 
 .my-button {
     margin-top: 1rem;
-    background-color: #667f83;
-    color: #fafafa;
+    background-color: #333745;
+    color: #fff;
 }
 
 .my-button:hover {
-    background-color: #fe5f55;
-    color: #fafafa;
+    background-color: #e7717d;
+    color: #fff;
+    border-color: #e7717d;
 }
 
 /* borders */
@@ -382,14 +383,15 @@ h1 {
 /* brewing guides (all .htmls) */
 
 .brewing-container {
-    padding: 1rem;
-    background-color: #333333;
-    color: #fff;
+    padding: 1.5rem;
+    background-color: #c2b9b0;
+    color: #000;
     border-radius: 0.25rem;
 }
 
 .brewing-container h2 {
     font-family: "Lora", sans-serif;
+    font-weight: bold;
 }
 
 .brewing-download {
@@ -409,7 +411,7 @@ h1 {
     background-color: #c2cad0;
     border-radius: 0.25rem;
     color: #000;
-    
+
     padding-bottom: 1rem;
 }
 
@@ -550,7 +552,7 @@ h1 {
 /* footer */
 
 .footer {
-    background-color: #c7efcf;
+    background-color: #afd275;
     color: #333745;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
