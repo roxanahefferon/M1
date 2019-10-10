@@ -303,19 +303,20 @@ h1 {
 /* coffees.html */
 
 .coffee-text p {
-    padding: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
 }
 
 .card-header{
-    background-color: #fe5f55;
-    color: #000;
+    background-color: #7e685a;
+    color: #fff;
+    border: none;
 }
 
 .card-body {
     background-color: #fff;
-    color: #333745;
+    color: #000;
 }
 
 .card-text {
@@ -324,8 +325,19 @@ h1 {
 
 /* coffees-single and coffees-blends.html */
 
+.single-text p,
+.blends-text p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.media-coffees {
+    background-color: #c2b9b0;
+}
+
 .checked {
-    color: #e7717d;
+    color: #7e685a;
 }
 
 .coffee-rating {
@@ -334,24 +346,6 @@ h1 {
 
 .inline-stars {
     padding-right: 3rem;
-}
-
-/* courses-landing */
-
-.sca {
-    background-color: #e7717d;
-    border-radius: 0.25rem;
-    color: #000;
-    margin-bottom: 1rem;
-}
-
-.sca-section {
-    margin: 0;
-    padding: 0;
-}
-.sca p {
-    padding: 0 1.5rem;
-    margin-top: 2rem;
 }
 
 /* brewing.html */
@@ -422,7 +416,7 @@ h1 {
 }
 
 .carousel-caption p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background-color: rgba(51, 51, 51, 0.75);
     color: #fff;
@@ -451,8 +445,6 @@ h1 {
 .media-quotes {
     padding: 0;
 }
-
-/* signup-landing */
 
 /* intro.html */
 
@@ -576,7 +568,6 @@ h1 {
     .card-link {
     font-size: 2rem;
     }
-
     .body-accordion p {
     font-size: 20px;
 
