@@ -17,24 +17,17 @@ A live demo can be found here.
 
 UX
 
-My number one goal was to make it easy to access information on the site while striving for a trendy urban industrial design. My design choice was based purely on personal preferences. I owned and managed a coffee shop for 10 years and this project somehow is a reflection of what I would have loved my business to be.
+My number one goal was to make it easy to access information on the site while promoting the brand.
 
-Urban Industrial combines utilitarian design with worn textures and the warmth of raw, aged woods.
-There are a few common elements that tend to be found in urban industrial spaces. They include, but are not limited to:
-Exposed brick walls
-Cement floors
-Raw, unfinished materials
-Sleek, metal and glass lighting
-Exposed beams
-Stainless steel accents
-
-Colour palette, I used the <em>image to colour generator</em> from https://www.schemecolor.com (based on a small analysis of some sample industrial design images found online).
+My design choice comes from https://visme.co/blog/website-color-schemes/.
+This beautiful combination of candy pink, green-yellow, lavender gray and pastel brown is ideal for designs looking to project a vibrant and inviting image.
 
 For prospective customers and baristas alike, I wanted to provide them with a brief overview of what the Coffee Project Co. does and how, as well as with the option to get in contact should they require more information/schedule a meeting with a sales representative.
 
 Links to the SCA website, my GitHub and downloadable PDF versions of some brewing techniques were also provided for their ease of access.
 
 <h3>Credits</h3>
+
 Hero image from by Simon Zachrisson | https://unsplash.com/photos/CWHzMfB0LWg
 
 Our Coffees image by Ubu Komarova | https://unsplash.com/photos/K3oOCdn9qcQ
