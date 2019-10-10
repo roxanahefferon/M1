@@ -276,30 +276,10 @@ h1 {
     font-family: "Lora", sans-serif;
 }
 
-
-
-
-
-/* about us */
-
-.about-container {
-    height: 50vh;
-}
-
-.about {
-    margin-left: 1rem;
-    color: #333745;
-}
-
-.about p {
-    font-size: 1.5rem;
-}
-
 /* our coffees - landing */
 
 .coffees-text {
-    background-color: #333745;
-    color: #fff;
+    color: #000;
     border-radius: 0.25rem;
 }
 
@@ -322,21 +302,24 @@ h1 {
 
 /* coffees.html */
 
-.coffees-container {
-    margin-top: 2rem;
-    background-color: #667f83;
-    color: #000;
-    border-radius: 0.25rem;
-}
-
 .coffee-text p {
     padding: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
-.card-header,
+.card-header{
+    background-color: #fe5f55;
+    color: #000;
+}
+
 .card-body {
-    background-color: #333745;
-    color: #fff;
+    background-color: #fff;
+    color: #333745;
+}
+
+.card-text {
+    text-align: justify;
 }
 
 /* coffees-single and coffees-blends.html */
