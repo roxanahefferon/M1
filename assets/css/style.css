@@ -326,7 +326,7 @@ h1 {
 /* coffees-single and coffees-blends.html */
 
 .checked {
-    color: #fe5f55;
+    color: #e7717d;
 }
 
 .coffee-rating {
@@ -340,7 +340,7 @@ h1 {
 /* courses-landing */
 
 .sca {
-    background-color: #fe5f55;
+    background-color: #e7717d;
     border-radius: 0.25rem;
     color: #000;
     margin-bottom: 1rem;
@@ -355,7 +355,7 @@ h1 {
     margin-top: 2rem;
 }
 
-/* brewing-landing */
+/* brewing.html */
 
 .brew-cards {
     background-color: #fff;
@@ -365,7 +365,7 @@ h1 {
 
 .brew-cards:hover {
     background-color: #fff;
-    border: 3px solid #fe5f55;
+    border: 3px solid #e7717d;
 }
 
 .brew-cards a {
@@ -402,7 +402,7 @@ h1 {
 
 .brewing-download a {
     text-decoration: none;
-    color: #e63462;
+    color: #e7717d;
 }
 
 /* brewing.html */
@@ -411,32 +411,10 @@ h1 {
     background-color: #c2cad0;
     border-radius: 0.25rem;
     color: #000;
-
     padding-bottom: 1rem;
 }
 
-.brew-cardsland {
-    background-color: #fff;
-    color: #000;
-    font-weight: bold;
-    border-radius: 0.25rem;
-    margin: 1rem;
-    padding: 0.5rem;
-}
 
-.cardsbrew {
-    margin: 0.8rem;
-}
-
-.brew-cardsland a{
-    color: #80909d;
-    text-decoration: none;
-}
-
-.brew-cardsland a:hover {
-    font-size: 1.5rem;
-    text-decoration: none;
-}
 
 /* carousel */
 
