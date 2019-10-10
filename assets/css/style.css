@@ -15,7 +15,7 @@ body {
 }
 
 .section-divider {
-    background-color: #3333745;
+    background-color: #333745;
     margin: 1.5rem;
 }
 
@@ -29,6 +29,7 @@ body {
     margin-top: 1rem;
     background-color: #333745;
     color: #fff;
+    border-color: #333745;
 }
 
 .my-button:hover {
@@ -70,7 +71,7 @@ body {
 /* all forms */
 
 .form-heading {
-    color: #fe5f55;
+    color: #e7717d;
     font-family: "Lora", sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
@@ -80,7 +81,7 @@ body {
 input[type=text],
 input[type=email],
 .form-control {
-    color: #667f83;
+    color:#333745;
     border: 2px solid #333745;
     border-radius: 0.25rem;
     width: 100%;
@@ -119,28 +120,25 @@ input[type=email],
 }
 
 .navbar .navbar-toggler {
-    border: 2px solid #fe5f55;
+    border: 2px solid #e7717d;
 }
 
 .navbar .navbar-toggler:hover {
-    border-color: #fe5f55;
+    border-color: #e7717d;
 }
 
-.dropdown a {
-    font-weight: 500;
-}
-
+.dropdown a,
 .navbar-nav a {
     font-weight: 500;
 }
 
 .dropdown-menu {
     border: solid 2px;
-    color: #fe5f55;
+    color: #e7717d;
 }
 
 .dropdown-menu:hover {
-    color: #fe5f55;
+    color: #e7717d;
 }
 
 .navbar-collapse {
@@ -195,18 +193,19 @@ h1 {
     padding: 1rem;
 }
 
-.badge-light {
-    background-color: #fe5f55;
+.badge-landing {
+    background-color: #e7717d;
     border: none;
     color: #fff;
     font-size: 1.5rem;
     margin-left: 0.25rem;
 }
 
-.badge-light:hover {
-    background-color: #fe5f55;
+.badge-landing:hover {
+    background-color: #fff;
     border: none;
-    color: #fff;
+    color: #333745;
+    text-decoration: none;
 }
 
 .quote-landing {
@@ -218,7 +217,7 @@ h1 {
 }
 
 .quote i {
-    color: #fe5f55;
+    color: #e7717d;
     font-size: 2rem;
 }
 
@@ -228,7 +227,6 @@ h1 {
     padding: 0;
     margin: auto;
 }
-
 
 .cards-landing-img {
     padding: 4rem;
@@ -245,16 +243,16 @@ h1 {
     margin-left: 1rem;
     margin-top: 1rem;
     text-align: justify;
-    font-weight: bold;
 }
 
 .cards-h2 {
+    margin-bottom: 2rem;
     font-weight: bold;
 }
 
 .collapse-landing a{
     text-decoration: none;
-    color: #fe5f55;
+    color: #e7717d;
     font-weight: bold;
 }
 
@@ -269,7 +267,8 @@ h1 {
 }
 
 .cards-landing-container {
-    background-color: #c7efcf;
+    background-color: #7e685a;
+    color: #fff;
     border-radius: 0.25rem;
 }
 
@@ -277,7 +276,7 @@ h1 {
     font-family: "Lora", sans-serif;
 }
 
-/* our coffees - landing */
+/* what we do - landing */
 
 .coffees-text {
     color: #000;
@@ -291,7 +290,7 @@ h1 {
 
 .linkcoffees {
     text-decoration: none;
-    color: #fe5f55;
+    color: #e7717d;
     font-weight: bold;
 }
 
@@ -357,6 +356,13 @@ h1 {
 
 /* brewing.html */
 
+.wrapper-brewing {
+    background-color: #c2cad0;
+    border-radius: 0.25rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
 .brew-cards {
     background-color: #fff;
     border: 3px solid #333745;
@@ -404,17 +410,6 @@ h1 {
     text-decoration: none;
     color: #e7717d;
 }
-
-/* brewing.html */
-
-.wrapper-brewing {
-    background-color: #c2cad0;
-    border-radius: 0.25rem;
-    color: #000;
-    padding-bottom: 1rem;
-}
-
-
 
 /* carousel */
 
