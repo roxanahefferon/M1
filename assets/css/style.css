@@ -406,7 +406,7 @@ h1 {
 /* brewing.html */
 
 .brewing-div {
-    background-color: #e9eae2;
+    background-color: #c2cad0;
     border-radius: 0.25rem;
     color: #000;
     margin-top: 0;
@@ -427,7 +427,7 @@ h1 {
 }
 
 .brew-cardsland a{
-    color: #003333;
+    color: #80909d;
     text-decoration: none;
 }
 
@@ -550,7 +550,7 @@ h1 {
 /* footer */
 
 .footer {
-    background-color: #ddc852;
+    background-color: #c7efcf;
     color: #333745;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
